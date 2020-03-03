@@ -6,7 +6,22 @@ Notebook Author: Adam A. Miller
 
 Copyright (c) 2016 Adam Miller
 
-**Intellectual Property Note**: LSSTC-DSFP materials are distributed under the MIT License, which states
+### Environment Setup
+
+This notebook requires `python 3`, `matplotlib`, `numpy`, `pandas`, `seaborn`, and `scikit-learn`.
+
+If your base environment does not work or the environment for this repo fails to solve, you can create a new environment and get started like this:
+
+`conda create -n ml_astro python=3.7 jupyter matplotlib numpy pandas seaborn scikit-learn -y`
+
+`conda activate ml_astro`
+
+`jupyter notebook`
+
+
+### Intellectual Property Note
+
+LSSTC-DSFP materials are distributed under the MIT License, which states
 
 ```
 Permission is hereby granted, free of charge, to any person obtaining a copy
