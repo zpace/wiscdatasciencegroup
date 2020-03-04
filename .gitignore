@@ -1,0 +1,7 @@
+# File types to ignore from git tracking
+
+# emacs buffer files
+*~
+
+# h5 data files
+*.h5
